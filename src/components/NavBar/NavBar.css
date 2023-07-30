@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+nav {
+    display: inline-block;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.nav-link {
+    margin: 1rem;
+    list-style-type: none;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-link:hover{
+    color: grey;
+    transition: 500ms;
+}
